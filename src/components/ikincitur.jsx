@@ -34,8 +34,8 @@ const getReturnValues = (countDown) => {
     <div className="ikincitur">
       <Button variant="outlined" onClick={handleClick} id="btn">
         {active
-          ? "Gizle"
-          : "Seçim İkinci Tura Kalırsa İkinci Tur Sayacı İÇİN Tıkla"}
+          ? "GİZLE"
+          : "SEÇİM İKİNCİ Tura Kalırsa İKİNCİ Tur Sayacı İÇİN Tıkla"}
       </Button>
       {show && (
         <div className="sayac">
