@@ -1,7 +1,7 @@
 {
   "name": "secimsayaci",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://serkanvarisli.github.io/secimsayaci/",
   "type": "module",
   "scripts": {
