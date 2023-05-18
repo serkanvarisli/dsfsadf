@@ -18,7 +18,6 @@ const container = () => {
       if (remainingTime <= 0) {
         setCountDown(0);
         clearInterval(interval);
-        <Ikincitur />;
       } else {
         setCountDown(remainingTime);
       }
