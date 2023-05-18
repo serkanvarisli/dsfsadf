@@ -9,9 +9,22 @@ const ikincitur = () => {
     countDownDate - new Date().getTime()
   );
 
-  setInterval(() => {
-    setCountDown(countDownDate - new Date().getTime());
-  }, 1000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const currentTime = new Date().getTime();
+      const remainingTime = countDownDate - currentTime;
+
+      if (remainingTime <= 0) {
+        setCountDown(0);
+        clearInterval(interval);
+        <Ikincitur />;
+      } else {
+        setCountDown(remainingTime);
+      }
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return getReturnValues(countDown);
 };
