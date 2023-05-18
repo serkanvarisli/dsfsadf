@@ -9,7 +9,6 @@ const container = () => {
   const [countDown, setCountDown] = useState(
     countDownDate - new Date().getTime()
   );
-
   useEffect(() => {
     const interval = setInterval(() => {
       const currentTime = new Date().getTime();

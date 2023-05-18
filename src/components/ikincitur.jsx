@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Button from "@mui/material/Button";
 
 const ikincitur = () => {
@@ -17,7 +17,6 @@ const ikincitur = () => {
       if (remainingTime <= 0) {
         setCountDown(0);
         clearInterval(interval);
-        <Ikincitur />;
       } else {
         setCountDown(remainingTime);
       }
