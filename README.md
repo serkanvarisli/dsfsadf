@@ -1,2 +1,2 @@
 # secimsayaci REACT APP
-demo : https://serkanvarisli.github.io/secimsayaci/
+demo : https://serkanvarisli.github.io/secimsayaci-react/
